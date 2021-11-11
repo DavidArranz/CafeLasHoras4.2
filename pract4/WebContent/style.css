@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body.colordefondo {
+    background-color: bisque;
+}
+h2.titulo {
+    color: brown;
+    position: relative;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr.blanco {
+    color: white;
+}
+section.img_lacarta {
+    position: relative;
+    left: 20%;
+    
+}
+
+section.colordefondoblanco {
+    background-color: white;
+}
+p.img_elcafe {
+    position: relative;
+    left: 40%;
+    color: blue;
+}
+
+section.img_contacto {
+    position: relative;
+    left: 60%;
+}
+p.centrado {
+    position: relative;
+}
+p.textorojo{
+	color : red;
+}
+/*menu de acceso*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #F76B4D;
+}
